@@ -1,0 +1,28 @@
+@headerColor: blue;
+@buttonColor: #4D926F;
+
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+
+h1 {
+	color: @headerColor;
+	.rounded-corners;
+	background-color: #FFF000;
+}
+
+button{
+	color: @buttonColor;
+	.rounded-corners(20px);
+}
+
+// Nested Rules
+div#listing{
+
+	ul li{
+		color: @headerColor;
+	}
+
+}
