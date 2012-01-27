@@ -1,4 +1,6 @@
 .classpath
 .project
-.settings/**/*
+*/org.eclipse.jdt.core.prefs
+*/org.eclipse.wst.common.component
+*/org.eclipse.wst.common.project.facet.core.xml
 target/**/*
